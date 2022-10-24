@@ -3,7 +3,7 @@ window.onload = function () {
 
 }
 
-var setInnerHTML = function (elm, html) {
+var setInnerHTML = function setInnerHTML (elm, html) {
   elm.innerHTML = html;
   Array.from(elm.querySelectorAll("script")).forEach(oldScript => {
     const newScript = document.createElement("script");
@@ -12,6 +12,10 @@ var setInnerHTML = function (elm, html) {
     newScript.appendChild(document.createTextNode(oldScript.innerHTML));
     oldScript.parentNode.replaceChild(newScript, oldScript);
   });
+}
+
+function capitalize(element) {
+  return element.charAt(0).toUpperCase() + element.slice(1).toLowerCase()
 }
 
 function loadContent() {
@@ -23,6 +27,7 @@ function loadContent() {
   fetch("pages/" + pageName + ".htm").then(function (page) {
     return page.text();
   }).then(function (html) {
+    document.title = capitalize(pageName) + " - ErmiiSoft";  
     setInnerHTML(mainContent, html);
   });
 }
