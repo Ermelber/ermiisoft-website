@@ -182,6 +182,17 @@ a:hover {
     line-height: 20px;
 }
 
+.contact-entry {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.contact-entry > span {
+    margin-left: 10px;
+    line-height: 32px;
+}
+
 /* Responsive layout */
 
 @media screen and (max-width: 600px) {
