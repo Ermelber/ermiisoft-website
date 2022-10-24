@@ -33,6 +33,7 @@ main {
 a {
     color: var(--accent-color);
     text-decoration: none;
+    transition: filter 0.2s;
 }
 
 a:hover {
@@ -73,7 +74,7 @@ a:hover {
 .container {
     display: flex;
     justify-content: center;
-    max-width: 1400px;
+    /* max-width: 1400px; */
 }
 
 .container > div {
@@ -87,11 +88,21 @@ a:hover {
 
 .content-right {
     flex: 1;
-    max-width: 45vw;
+    max-width: 50vw;
+}
+
+.content-center {
+    flex: 1;
+    max-width: 90vw;
 }
 
 .svg-icon {
     width: 32px;
+    transition: transform 0.5s;
+}
+
+.svg-icon:hover {
+    transform: scale(1.1);
 }
 
 .logo {
@@ -121,28 +132,59 @@ a:hover {
     margin-bottom: 10px;
     min-height: 150px;
 
-    display: flex;
-    justify-content: start;
-    flex-direction: row;
-}
-
-.project-thumbnail {
-    width: 100px;
-}
-
-.project-info {
     justify-content: center;
     display: flex;
     flex-direction: column;
 }
 
-.project-info > h2 {
-    padding: 0;
-    margin: 0;
+.project-thumbnail {
+    width: 64px;
+    height: 64px;
+    border-radius: 10px;
+    background-size: cover;
+    margin-right: 16px;
+    transition: transform 0.5s;
 }
 
+.project-thumbnail:hover {
+    transform: scale(1.1);
+}
 
-@media screen and (max-width: 500px) {
+.project-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.project-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.project-tags {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    justify-content: center;
+}
+
+.pill {
+    background-color: var(--main-light-gray) !important;
+    color: var(--main-white) !important;
+    border-radius: 10px;
+    font-size: small;
+    padding: 0em 0.5em;
+    margin: 0em 0.2em;    
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 20px;
+    line-height: 20px;
+}
+
+/* Responsive layout */
+
+@media screen and (max-width: 600px) {
     #top-bar {
         -webkit-flex-flow: column wrap;
         flex-flow: column wrap;
@@ -167,6 +209,11 @@ a:hover {
     }
 
     .content-left {
+        flex: 2;
+        max-width: 100%;
+    }
+
+    .content-center {
         flex: 2;
         max-width: 100%;
     }

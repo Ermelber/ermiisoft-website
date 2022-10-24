@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Neodori Forever",
+        "description": "A blazing fast endless racing game. Race against rivals and reach far distances.",
+        "url": "#",
+        "icon": "assets/img/neodori/icon.png",
+        "tags": ["PC", "Unity", "2022"],
+        "links": [
+            { "url": "https://store.steampowered.com/app/1963660/Neodori_Forever", "icon": "assets/svg/steam.svg" }
+        ]
+    },
+    {
+        "name": "Mario Kart Toolbox",
+        "description": "Fully fledged Mario Kart DS editor made in collaboration with Gericom.",
+        "url": "#",
+        "icon": "assets/img/mktb/icon.png",
+        "tags": ["PC", "C#", "Tools", "2022"],
+        "links": [
+            { "url": "https://github.com/Ermelber/opengl-test", "icon": "assets/svg/github.svg" }
+        ]
+    },
+    {
+        "name": "Ermii Kart DS",
+        "description": "Mario Kart DS rom hack including 32 new courses and a brand new roster.",
+        "url": "#",
+        "icon": "assets/img/ermii-kart/icon.png",
+        "tags": ["Nintendo DS", "Rom Hack", "2019"],
+        "links": [
+            { "url": "https://www.youtube.com/watch?v=8_AuFruqk5E", "icon": "assets/svg/youtube.svg" }
+        ]
+    }
+]
