@@ -14,8 +14,8 @@ var setInnerHTML = function setInnerHTML (elm, html) {
   });
 }
 
-function capitalize(element) {
-  return element.charAt(0).toUpperCase() + element.slice(1).toLowerCase()
+function setTitle(title) {
+  document.title = title + " - ErmiiSoft";  
 }
 
 function loadContent() {
@@ -27,7 +27,6 @@ function loadContent() {
   fetch("pages/" + pageName + ".htm").then(function (page) {
     return page.text();
   }).then(function (html) {
-    document.title = capitalize(pageName) + " - ErmiiSoft";  
     setInnerHTML(mainContent, html);
   });
 }
