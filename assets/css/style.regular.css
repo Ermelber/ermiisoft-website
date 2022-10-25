@@ -11,6 +11,11 @@ html, body {
     padding: 0;
     overflow-x: hidden;
     font-family: Exo, Verdana, Geneva, Tahoma, sans-serif;
+    
+    background-color: var(--main-background);
+    color: var(--main-white);
+
+    color-scheme: dark;
 }
 
 h1, h2 {
@@ -18,9 +23,6 @@ h1, h2 {
 }
 
 body {
-    background-color: var(--main-background);
-    color: var(--main-white);
-
     display: flex;
     flex-direction: column;
     justify-content: center;
