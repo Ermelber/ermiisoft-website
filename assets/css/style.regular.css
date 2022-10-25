@@ -170,16 +170,17 @@ a:hover {
 }
 
 .pill {
-    background-color: var(--main-light-gray) !important;
+    background-color: var(--main-background) !important;
     color: var(--main-white) !important;
-    border-radius: 10px;
-    font-size: small;
+    border-radius: 16px;
+    font-size: 0.9em;
     padding: 0em 0.5em;
     margin: 0em 0.2em;    
     margin-top: auto;
     margin-bottom: auto;
-    height: 20px;
-    line-height: 20px;
+    height: 24px;
+    line-height: 24px;
+    filter: brightness(100%);
 }
 
 .contact-entry {
