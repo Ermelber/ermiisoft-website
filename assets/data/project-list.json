@@ -16,7 +16,7 @@
         "icon": "assets/img/mktb/icon.png",
         "tags": ["PC", "C#", "Tools", "2022"],
         "links": [
-            { "url": "https://github.com/Ermelber/opengl-test", "icon": "assets/svg/github.svg" }
+            { "url": "https://github.com/HaroohiePals/MarioKartToolbox", "icon": "assets/svg/github.svg" }
         ]
     },
     {
