@@ -12,7 +12,7 @@
     {
         "name": "Mario Kart Toolbox",
         "description": "Fully fledged Mario Kart DS editor made in collaboration with Gericom.",
-        "url": "#",
+        "url": "javascript:void(0)",
         "icon": "assets/img/mktb/icon.png",
         "tags": ["PC", "C#", "Tools", "2022"],
         "links": [

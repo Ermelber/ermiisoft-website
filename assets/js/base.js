@@ -30,7 +30,7 @@ function loadProjectList(containerId, count) {
   var mainContent = document.getElementById(containerId);
 
   var fetchTemplate = fetch("templates/project-entry.htm").then(function (templateFile) { return templateFile.text(); });
-  var fetchProjectJson = fetch("assets/data/project-list.json").then(function (response) { return response.json(); });
+  var fetchProjectJson = fetch("assets/data/project-list.json?v1.1").then(function (response) { return response.json(); });
 
   Promise.all([fetchTemplate, fetchProjectJson]).then(function (results) {
     var template = results[0];
