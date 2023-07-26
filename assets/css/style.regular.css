@@ -158,6 +158,11 @@ a:hover {
     justify-content: start;
 }
 
+.project-links {
+    display: flex;
+    gap: 10px;
+}
+
 .project-footer {
     display: flex;
     flex-direction: row;

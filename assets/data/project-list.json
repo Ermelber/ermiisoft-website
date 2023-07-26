@@ -6,7 +6,11 @@
         "icon": "assets/img/neodori/icon.png",
         "tags": ["PC", "Unity", "2022"],
         "links": [
-            { "url": "https://store.steampowered.com/app/1963660/Neodori_Forever", "icon": "assets/svg/steam.svg" }
+            { "url": "https://store.steampowered.com/app/1963660/Neodori_Forever", "icon": "assets/svg/steam.svg" },
+            { "url": "https://www.nintendo.com/store/products/neodori-forever-switch/", "icon": "assets/svg/nintendo-switch.svg" },
+            { "url": "https://store.playstation.com/en-us/product/UP2833-CUSA41136_00-0971733964623785", "icon": "assets/svg/playstation.svg" },
+            { "url": "https://play.google.com/store/apps/details?id=com.crescentmoongames.neodori", "icon": "assets/svg/google-playstore.svg" },
+            { "url": "https://apps.apple.com/us/app/neodori-forever/id6443939648", "icon": "assets/svg/apple-appstore.svg" }
         ]
     },
     {
