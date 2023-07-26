@@ -2,7 +2,7 @@
     {
         "name": "Neodori Forever",
         "description": "A blazing fast endless racing game. Race against rivals and reach far distances.",
-        "url": "/projects/neodori-forever",
+        "url": "#/projects/neodori-forever",
         "icon": "assets/img/neodori/icon.png",
         "tags": ["PC", "Unity", "2022"],
         "links": [
@@ -22,7 +22,7 @@
     {
         "name": "Ermii Kart DS",
         "description": "Mario Kart DS rom hack including 32 new courses and a brand new roster.",
-        "url": "/projects/ermii-kart",
+        "url": "#/projects/ermii-kart",
         "icon": "assets/img/ermii-kart/icon.png",
         "tags": ["Nintendo DS", "Rom Hack", "2019"],
         "links": [
