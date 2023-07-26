@@ -28,46 +28,33 @@
 
     <link rel="icon" type="image/x-icon" href="/assets/ico/favicon.ico">
 
-    <script src="assets/js/base.js?v1.1"></script>
-
-    <!-- Matomo -->
-    <script>
-        var _paq = window._paq = window._paq || [];
-        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-        _paq.push(['trackPageView']);
-        _paq.push(['enableLinkTracking']);
-        (function () {
-            var u = "https://matomo.haroohie.club/";
-            _paq.push(['setTrackerUrl', u + 'matomo.php']);
-            _paq.push(['setSiteId', '2']);
-            var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
-            g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
-        })();
-    </script>
-    <!-- End Matomo Code -->
-
+    <script src="assets/js/base.js?v1.2"></script>
+    <!-- Routing -->
+    <script src="assets/js/router.js"></script>
+    <!-- Matomo Analytics -->
+    <script src="assets/js/matomo.js"></script>
 </head>
 
 <body>
     <header>
         <div id="top-bar">
             <div id="top-bar-title">
-                <a href="?p=home">
+                <a href="/">
                     <img class="logo" src="assets/svg/logo_notext.svg?v1.1" />
                     <img class="logo-sm" src="assets/svg/logo.svg?v1.1" />
                 </a>
                 <h1 class="logo-title">ErmiiSoft</h1>
             </div>
             <ul id="top-bar-menu">
-                <li><a href="?p=home">Home</a></li>
-                <li><a href="?p=projects">Projects</a></li>
-                <li><a href="?p=contact">Contact</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/projects">Projects</a></li>
+                <li><a href="/contact">Contact</a></li>
             </ul>
         </div>
     </header>
 
     <main id="main-content">
-        <script>loadContent()</script>
+        
     </main>
 
     <footer id="footer">
